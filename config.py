@@ -20,17 +20,17 @@ YTUB_COOKIES = """
 """
 
 # ─── BOT / DATABASE CONFIG ──────────────────────────────────────────────────────
-API_ID       = os.getenv("API_ID", "")
-API_HASH     = os.getenv("API_HASH", "")
-BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
-MONGO_DB     = os.getenv("MONGO_DB", "")
+API_ID       = os.getenv("API_ID", "36455116")
+API_HASH     = os.getenv("API_HASH", "dddbb57121805c7b1434734390ff2e08")
+BOT_TOKEN    = os.getenv("BOT_TOKEN", "8291242887:AAENgpOP_7_WUaoCMRVunSBRliybOkSwgTE")
+MONGO_DB     = os.getenv("MONGO_DB", "mongodb+srv://dbm491565_db_user:ffVHN5tdzA8wpd6l@cluster0.r1gowvu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME      = os.getenv("DB_NAME", "telegram_downloader")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
-OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
+OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "8327837344").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
-LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1001234456"))
-FORCE_SUB    = int(os.getenv("FORCE_SUB", "-10012345567"))
+LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1003399830897"))
+FORCE_SUB    = int(os.getenv("FORCE_SUB", "-1003795021491"))
 
 # ─── SECURITY KEYS ──────────────────────────────────────────────────────────────
 MASTER_KEY   = os.getenv("MASTER_KEY", "gK8HzLfT9QpViJcYeB5wRa3DmN7P2xUq")  # session encryption
@@ -45,8 +45,8 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "500"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
-JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/team_spy_pro")
-ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/username_of_admin")
+JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/nightvoiid")
+ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/nightvoiid")
 
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ PREMIUM PLANS CONFIGURATION
